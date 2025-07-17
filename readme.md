@@ -49,17 +49,21 @@ To use this project locally:
    git clone https://github.com/Phantom611/Tweet-sentiment-classifier.git
    cd Tweet-sentiment-classifier
 2. (Optional) Create a virtual environment
+   ```bash
     python -m venv venv
     source venv/bin/activate  ## On Windows: venv\Scripts\activate
 
 3. Install dependencies
+   ```bash
    pip install -r requirements.txt
 
 4. Download NLTK stopwords (first time only)
+   ```bash
    import nltk
    nltk.download('stopwords')
 
 5. Run the app
+   ```bash
    streamlit run app.py
 
 🙋‍♂️ Author
