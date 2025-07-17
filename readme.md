@@ -9,7 +9,7 @@ This project uses **TF-IDF Vectorization**, **Logistic Regression**, and is depl
 
 ## 🚀 Live Demo
 
-🔗 [**Click here to open the app**](https://your-streamlit-app-url)
+🔗 [**Click here to open the app**](https://tweet-sentiment-classifier-8ktq4yaxee7tcne2ahpoth.streamlit.app/)
 
 > Replace the URL above with your actual deployed Streamlit Cloud link.
 
