@@ -15,6 +15,8 @@ def clean_text(text):
     text = re.sub(r"\s+", " ", text).strip()
     
     # Optional: remove stopwords
+    import nltk
+    nltk.download('stopwords')
     from nltk.corpus import stopwords
     stop_words = set(stopwords.words('english'))
     words = text.split()
