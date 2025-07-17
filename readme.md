@@ -1,23 +1,27 @@
-# 🧠 Tweet Sentiment Classifier
+# 🐦 Tweet Sentiment Classifier
 
-A Machine Learning web app built using **Streamlit** to classify the sentiment of tweets as **Positive 😀** or **Negative 😠**.
+A machine learning web app that classifies the **sentiment** of a tweet as **Positive**, **Negative**, or **Neutral** using Natural Language Processing and Scikit-learn.  
+This project uses **TF-IDF Vectorization**, **Logistic Regression**, and is deployed with **Streamlit**.
+
+> ⚠️ Note: The original CSV dataset (`tweet.csv`) has been removed from this repository due to GitHub's 100MB file size limit. See [🔽 Dataset Download Instructions](#-dataset-download-instructions) below.
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-Check out the live app:  
-👉 [Streamlit App Link](https://your-streamlit-app-url.streamlit.app)
+🔗 [**Click here to open the app**](https://your-streamlit-app-url)
+
+> Replace the URL above with your actual deployed Streamlit Cloud link.
 
 ---
 
 ## 📌 Features
 
-- ✅ Real-time tweet sentiment prediction
-- ✅ Text preprocessing & stopword removal
-- ✅ TF-IDF vectorization
-- ✅ Logistic Regression model
-- ✅ Clean, minimal UI with Streamlit
+- Cleans and processes tweet text (stopwords, punctuation, lowercase, etc.)
+- Converts text to numerical form using TF-IDF
+- Predicts sentiment using Logistic Regression
+- Simple Streamlit interface
+- Fully open-source and easy to extend
 
 ---
 
@@ -26,50 +30,40 @@ Check out the live app:
 
 ---
 
-## 🧠 How It Works
+## 🔽 Dataset Download Instructions
 
-1. **Preprocess Text** — remove URLs, mentions, punctuation, stopwords, etc.
-2. **TF-IDF Vectorization** — convert text into numerical features
-3. **Model Prediction** — Logistic Regression predicts sentiment
-4. **Output** — Sentiment is shown as either Positive 😀 or Negative 😠
+Due to GitHub’s file size restrictions, the dataset (`tweet.csv`, ~227MB) is not included in this repository.  
+
+To use this project locally:
+
+1. Go to [this Kaggle dataset](https://www.kaggle.com/datasets/kazanova/sentiment140)
+2. Download the file and extract it
+3. Place the CSV file inside a `data/` folder in your project directory:
 
 ---
 
-## ⚙️ How to Run Locally
+## 💻 Run Locally
 
-### 1. Clone this repository:
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Phantom611/Tweet-sentiment-classifier.git
+   cd Tweet-sentiment-classifier
+2. (Optional) Create a virtual environment
+    python -m venv venv
+    source venv/bin/activate  ## On Windows: venv\Scripts\activate
 
-```bash
-git clone https://github.com/your-username/tweet-sentiment-classifier.git
-cd tweet-sentiment-classifier
+3. Install dependencies
+   pip install -r requirements.txt
 
-pip install -r requirements.txt
-streamlit run app.py
+4. Download NLTK stopwords (first time only)
+   import nltk
+   nltk.download('stopwords')
 
-📚 Requirements
-Python 3.8+
-
-Streamlit
-
-Scikit-learn
-
-Pandas
-
-NLTK
-
-Matplotlib (optional)
-
-Seaborn (optional)
-
-📈 Model Details
-Algorithm: Logistic Regression
-
-Vectorizer: TF-IDF (5000 features)
-
-Accuracy: ~84% (on test set)
+5. Run the app
+   streamlit run app.py
 
 🙋‍♂️ Author
 Mayank Pahade
-AI/ML Enthusiast | Open to collaboration
-📧 LinkedIn | 📫 mayank@example.com
+- GitHub: @Phantom611
+- LinkedIn: Coming soon
 
