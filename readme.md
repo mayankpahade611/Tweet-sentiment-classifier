@@ -68,6 +68,6 @@ To use this project locally:
 
 🙋‍♂️ Author
 Mayank Pahade
--AI/ML Enthusiast | Open to collaboration
--📧 LinkedIn | 📫 https://www.linkedin.com/in/mayank-pahade-920956209/
+- AI/ML Enthusiast | Open to collaboration
+- 📧 LinkedIn | 📫 https://www.linkedin.com/in/mayank-pahade-920956209/
 
