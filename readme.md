@@ -68,6 +68,6 @@ To use this project locally:
 
 🙋‍♂️ Author
 Mayank Pahade
-- GitHub: @Phantom611
-- LinkedIn: Coming soon
+-AI/ML Enthusiast | Open to collaboration
+-📧 LinkedIn | 📫 https://www.linkedin.com/in/mayank-pahade-920956209/
 
