@@ -23,10 +23,6 @@ This project uses **TF-IDF Vectorization**, **Logistic Regression**, and is depl
 - Simple Streamlit interface
 - Fully open-source and easy to extend
 
----
-
-## 📂 Project Structure
-
 
 ---
 
