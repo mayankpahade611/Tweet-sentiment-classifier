@@ -1,21 +1,21 @@
-# 🐦 Tweet Sentiment Classifier
+#  Tweet Sentiment Classifier
 
 A machine learning web app that classifies the **sentiment** of a tweet as **Positive**, **Negative**, or **Neutral** using Natural Language Processing and Scikit-learn.  
 This project uses **TF-IDF Vectorization**, **Logistic Regression**, and is deployed with **Streamlit**.
 
-> ⚠️ Note: The original CSV dataset (`tweet.csv`) has been removed from this repository due to GitHub's 100MB file size limit. See [🔽 Dataset Download Instructions](#-dataset-download-instructions) below.
+> ⚠ Note: The original CSV dataset (`tweet.csv`) has been removed from this repository due to GitHub's 100MB file size limit. See [🔽 Dataset Download Instructions](#-dataset-download-instructions) below.
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 
-🔗 [**Click here to open the app**](https://tweet-sentiment-classifier-8ktq4yaxee7tcne2ahpoth.streamlit.app/)
+ [**Click here to open the app**](https://tweet-sentiment-classifier-8ktq4yaxee7tcne2ahpoth.streamlit.app/)
 
 > Replace the URL above with your actual deployed Streamlit Cloud link.
 
 ---
 
-## 📌 Features
+##  Features
 
 - Cleans and processes tweet text (stopwords, punctuation, lowercase, etc.)
 - Converts text to numerical form using TF-IDF
@@ -30,7 +30,7 @@ This project uses **TF-IDF Vectorization**, **Logistic Regression**, and is depl
 
 ---
 
-## 🔽 Dataset Download Instructions
+##  Dataset Download Instructions
 
 Due to GitHub’s file size restrictions, the dataset (`tweet.csv`, ~227MB) is not included in this repository.  
 
@@ -42,7 +42,7 @@ To use this project locally:
 
 ---
 
-## 💻 Run Locally
+##  Run Locally
 
 1. **Clone the repository**
    ```bash
@@ -66,8 +66,5 @@ To use this project locally:
    ```bash
    streamlit run app.py
 
-🙋‍♂️ Author
-Mayank Pahade
-- AI/ML Enthusiast | Open to collaboration
-- 📧 LinkedIn | 📫 https://www.linkedin.com/in/mayank-pahade-920956209/
+
 
